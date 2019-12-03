@@ -142,8 +142,8 @@ case "$1" in
     load_hosts
   ;;
 
-  help)
-    cat && cat << EOF
+  hosts:help)
+    cat << EOF
     hosts:list <app>                                Lists all custom hosts set for <app>
     hosts:add <app> <ip> <hostname>                 Sets <ip> and <hostname> for <app>
     hosts:remove <app> <hostname>                   Removes <hostname> from <app>
