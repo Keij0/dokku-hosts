@@ -1,0 +1,4 @@
+[plugin]
+description = "add entries to an application's /etc/hosts file"
+version = "0.0.0"
+[plugin.config]
